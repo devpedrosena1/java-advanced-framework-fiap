@@ -4,9 +4,11 @@ import br.com.fiap.patterns.controller.ImpostoController;
 import br.com.fiap.patterns.model.Pis;
 import br.com.fiap.patterns.view.TelaPis;
 
+import java.io.IOException;
+
 public class TesteCalculo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Pis model = new Pis();
         TelaPis tela = new TelaPis();
 
